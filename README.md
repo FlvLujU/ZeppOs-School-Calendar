@@ -11,11 +11,11 @@ This is app interface:
 
 ![alt text](assets/image-6.png)
 
-For now in the calendar, you can only see a calendar, in future, a better implementation with task will be added.
+For now in the calendar, you can only see a calendar, in future, a better implementation with tasks will be added.
 
 ![alt text](assets/image-3.png)
 
-In the schhol calendar, you will, be able to see your current day schedule and the other days ones.
+In the school calendar, you will, be able to see your current day schedule and the other days ones.
 
 How to set your schedule will be explained later...
 
