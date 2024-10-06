@@ -103,7 +103,7 @@ In case you dont have task, you will see this:
 
 #### 11. YOU MUSN´T DELETE THE "" AT THE INIT OF EACH SUBJECT, IF YOU DO, PROGRAM WON´T WORK
 
-#### 12. Save the file and use Zeus Cli tool to see it your watch
+#### 12. Save the file and use Zeus Cli tool to see it on your watch
 
 App will be more user-friendly in future for now, this is what it is...
 
