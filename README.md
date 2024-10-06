@@ -1,4 +1,4 @@
-# ZeppOS-School CAlendar
+# ZeppOS-School Calendar
 
 
 ## Schedule calendar App for Zepp os users.
