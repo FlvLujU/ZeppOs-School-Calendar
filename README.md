@@ -1,5 +1,40 @@
+
 # ZeppOS-School Calendar
 
+## V2. ChangeLog:
+
+#### 1. Modify new task screen:
+
+![alt text](assets/image-13.png)
+
+#### 2. Update Exam type task, now you can select which type of exam is: Parcial or final.
+
+![alt text](assets/image-14.png)
+
+#### 3. Update Ejs new task page screen, now you can add until 10 exs for a page.
+
+![alt text](assets/image-15.png)
+
+#### 4. Update Rects´s color on task page screen (Edit button on delete page don´t work for now).
+
+![alt text](assets/image-16.png)
+
+#### 5. Now you can see what task you have on a day in the calendar page (for unknow reasons circles arent showed in my device), click in a day that have a task to see all the task in that day.
+
+![alt text](assets/image-17.png)
+
+#### 6. Filtered task of a day ´s page.
+
+![alt text](assets/image-18.png)
+
+
+# Enjoy!!!
+--------------------------------------------------------------------------------------------------------------------------
+
+
+# ZeppOS-School Calendar
+
+## V1
 
 ## Schedule calendar App for Zepp os users.
 
