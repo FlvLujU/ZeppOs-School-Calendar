@@ -1,0 +1,69 @@
+{
+  "asignaturas": [
+    {
+      "nombre": "Matematicas",
+      "actividades": {
+        "examenes": [],
+        "tareas": [],
+        "proyectos": []
+      }
+    },
+    {
+      "nombre": "Lengua",
+      "actividades": {
+        "examenes": [],
+        "tareas": [],
+        "proyectos": []
+      }
+    },
+    {
+      "nombre": "Ingles",
+      "actividades": {
+        "examenes": [],
+        "tareas": [],
+        "proyectos": []
+      }
+    },
+    {
+      "nombre": "Fisica",
+      "actividades": {
+        "examenes": [],
+        "tareas": [],
+        "proyectos": []
+      }
+    },
+    {
+      "nombre": "Tecnologia",
+      "actividades": {
+        "examenes": [],
+        "tareas": [],
+        "proyectos": []
+      }
+    },
+    {
+      "nombre": "TIC",
+      "actividades": {
+        "examenes": [],
+        "tareas": [],
+        "proyectos": []
+      }
+    },
+    {
+      "nombre": "Historia",
+      "actividades": {
+        "examenes": [],
+        "tareas": [],
+        "proyectos": []
+      }
+    },
+    {
+      "nombre": "Filosofia",
+      "actividades": {
+        "examenes": [],
+        "tareas": [],
+        "proyectos": []
+      }
+    }
+  ],
+  "fechas": []
+}
