@@ -1,6 +1,11 @@
 {
-  "theme": 1,
+  "theme": {
+    "bg": "0xffffff",
+    "UI": "0xee1907"
+  },
   "autoBright": false,
-  "autoDark": false
-  "languaje": 1
+  "autoDark": false,
+  "languaje": 1,
+  "remindMe": [],
+  "dailyAppRemindMe": []
 }
