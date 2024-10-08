@@ -8,4 +8,47 @@
   "languaje": 1,
   "remindMe": [],
   "dailyAppRemindMe": false
+  "profile": 1,
+  "Schedule": {
+   "Lun": [],
+   "Mar": [],
+   "Mie": [],
+   "Jue": [],
+   "Vie": []
+  },
+  "addedSubjects": [],
+  "colors": []
 }
+//This will be removed, just a eraser for a js file...
+      var conf = readFile('raw/settings.json')
+      console.log("JSON: " + conf);
+      var decodeConf = decodeUint8Array(conf);
+      console.log("Decode JSON: " + decodeConf);
+	  var Config = JSON.parse(decodeConf)
+	  var themeBG;
+      themeBG = Config.theme.bg
+	  var themeUI;
+	  themeUI = Config.theme.UI
+	  var autoBright;
+	  autoBright = Config.autoBright
+	  var autoDark;
+	  autoDark = Config.autoDark
+	  var lang;
+	  lang = Config.languaje
+	  var remindMe = []
+	  for(let i = 0; i < Config.remindMe.length - 1; i++){
+		  remindMe.push(Config.remindMe[i])
+	  }
+	  var dailyAppRemindMe;
+      dailyAppRemindMe = Config.dailyAppRemindMe
+	  var profile;
+      profile = Config.profile
+var LUN = Config.Schedule.Lun
+var MAR = Config.Schedule.Mar
+var MIE = Config.Schedule.Mie
+var JUE = Config.Schedule.Jue
+var VIE = Config.Schedule.Vie
+var subjectsUser;
+subjectsUser = Config.addedSubjects
+var customColors;
+customColors = Config.colors
