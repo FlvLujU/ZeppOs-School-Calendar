@@ -19,3 +19,18 @@
   "addedSubjects": [],
   "colors": []
 }
+
+/*bofeto:
+if(compareDates(new Date(time.year, time.month, time.day), new Date(Config.lastYear, Config.lastMonth, Config.lastDay)){
+	Config.lastDay = time.day
+	Config.lastMonth = time.month
+	Config.lastYear = time.year
+	writeFile("raw/settings.json", Config)
+}
+function compareDates(date1, date2){
+	if(date1 > date2){
+		return true
+	}else{
+		return false
+	}
+}*/
