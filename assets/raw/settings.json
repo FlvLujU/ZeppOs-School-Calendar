@@ -21,16 +21,158 @@
 }
 
 /*bofeto:
-if(compareDates(new Date(time.year, time.month, time.day), new Date(Config.lastYear, Config.lastMonth, Config.lastDay)){
-	Config.lastDay = time.day
-	Config.lastMonth = time.month
-	Config.lastYear = time.year
-	writeFile("raw/settings.json", Config)
-}
-function compareDates(date1, date2){
-	if(date1 > date2){
-		return true
+const sub = [
+    "Administración de Empresas",
+    "Alemán",
+    "Algebra Lineal",
+    "Antropología",
+    "Antropología Aplicada",
+    "Antropología Cultural",
+    "Arqueología",
+    "Arquitectura",
+    "Artes Visuales",
+    "Auditoría",
+    "Bases de Datos",
+    "Bioética",
+    "Bioética en la Investigación",
+    "Biología",
+    "Biología Molecular",
+    "Biotecnología",
+    "Cálculo Diferencial",
+    "Cálculo Integral",
+    "Cálculo Numérico",
+    "Ciencias Ambientales",
+    "Ciencias de la Computación",
+    "Ciencias de la Decisión",
+    "Ciencias Forenses",
+    "Ciencias Políticas",
+    "Ciberseguridad",
+    "Comunicación Social",
+    "Comercio Internacional",
+    "Contabilidad",
+    "Contemporaneidad",    
+    "Crítica Literaria",
+    "Criminología",
+    "Desarrollo Infantil",
+    "Desarrollo Organizacional", 
+    "Desarrollo Sostenible",
+    "Desarrollo Urbano",
+    "Didáctica",
+    "Derecho",
+    "Derecho Internacional",
+    "Diseño de Interacción",
+    "Diseño de Productos",
+    "Diseño Gráfico",
+    "Economía",
+    "Ecología",
+    "Ecotoxicología",
+    "Educación",
+    "Energías Renovables", 
+    "Etica",
+    "Etica en la Comunicación",
+    "Etica Profesional",
+    "Etica en la Tecnología",
+    "Emprendimiento",
+    "Estadística",
+    "Estudios Africanos",
+    "Estudios Asiáticos",
+    "Estudios Culturales",
+    "Estudios de Género",
+    "Estudios Latinoamericanos",
+    "Física Aplicada",
+    "Física Clásica",
+    "Física Moderna",
+    "Fisiología",
+    "Fisioterapia",
+    "Finanzas",
+    "Filosofía",
+    "Filosofía Política",  
+    "Francés",
+    "Geografía Económica",
+    "Geografía Física",
+    "Geografía Humana",
+    "Gestión Ambiental",
+    "Gestión Cultural",
+    "Gestión del Cambio",
+    "Gestión de Proyectos",
+    "Gestión de Recursos Naturales",
+    "Gestión del Talento Humano",
+    "Historia",
+    "Historia Contemporánea",
+    "Historia del Arte",
+    "Historia Natural",    
+    "Idiomas Extranjeros",
+    "Imagen y Sonido",
+    "Inmunología",
+    "Ingeniería Civil",
+    "Ingeniería Electrónica",
+    "Ingeniería Industrial",
+    "Ingeniería Mecánica",
+    "Inteligencia Artificial",
+    "Italiano",
+    "Latín",
+    "Lingüística",
+    "Lingüística Aplicada", 
+    "Matemáticas Avanzadas",
+    "Matemáticas Discretas",
+    "Matemáticas Financieras", 
+    "Música",
+    "Neurociencia",
+    "Neuropsicología",    
+    "Nanomedicina",
+    "Nanotecnología",
+    "Odontología",
+    "Optica",             
+    "Probabilidad y Estadística",
+    "Prácticas Empresariales", 
+    "Psicología",
+    "Psicología Organizacional",
+    "Química",
+    "Química Física",     
+    "Química Inorgánica",
+    "Química Orgánica",
+    "Relaciones Internacionales",
+    "Responsabilidad Social Empresarial",
+    "Robótica",
+    "Salud Mental",
+    "Salud Pública",
+    "Salud Pública Global",
+    "Sociología",
+    "Sociología del Trabajo",
+    "Sistemas de Información", 
+    "Teatro",
+    "Técnicas de Comunicación",
+    "Técnicas de Estudio",
+    "Terapia Ocupacional",
+    "Teoría de Números",
+    "Teoría de Sistemas",
+    "Teoría del Aprendizaje", 
+    "Teoría del Conocimiento",
+    "Trabajo Social",   
+    "Veterinaria",
+    "Vigilancia Epidemiológica",        
+];
+var nextScreenX = 0
+var subY = 0
+for(let i = 0; i < sub.length - 1; i++){
+	let initWNEXT = sub[i + 1].substr(0, 1)
+	if(sub[i].substr(0, 1) == initWNEXT){
+		console.log("current: " + sub[i].substr(0, 1))
+		hmUI.createWidget(hmUI.widget.TEXT,{
+			x: 40 + nextScreenX * 450,
+			y: 30 + subY * 28,
+			w: 350,
+			h: 28,
+			text: sub[i],
+			color: 0xffffff,
+			text_size: 18
+		})
+		subY++
 	}else{
-		return false
+		nextScreenX++
+		subY = 0
+		console.log("next: " + initWNEXT)
+		console.log("screenX: " + nextScreenX)
 	}
+}
 }*/
